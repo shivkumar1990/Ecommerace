@@ -1,23 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './Login.js';
- 
-class App extends Comment { 
-  render() {
-    return (
-      <div>
-        <LoginBox />
-      </div>
-    )
-  }
-}
+import Login from './Container/Login';
+import './bootstrap.min.css';
 
-ReactDOM.render(<App/> ,document.getElementById('root'));
- 
-   
- 
-  
+
+
+ReactDOM.render(<Login />, document.getElementById("root"));
+
+
+
+
+
+
+
+
+
 
 
 
